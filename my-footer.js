@@ -7,6 +7,7 @@ import {
 export class MyFooter extends LitElement {
   static styles = css`
     footer {
+      font-size: x-large;
       padding: 2rem;
       text-align: center;
       border-top-color: black;
