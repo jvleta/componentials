@@ -1,6 +1,7 @@
 <script>
   import Card from "./Card.svelte";
   import BoilerPlate from "./BoilerPlate.svelte";
+  import AccordionItem from "./AccordionItem.svelte";
   export let name = "Mom";
 </script>
 
