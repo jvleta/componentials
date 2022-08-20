@@ -1,6 +1,6 @@
 <svelte:options tag="my-card" />
 <script>
-  export let card_title, card_desc;
+  export let title, description;
 </script>
 
 <main>
@@ -9,13 +9,13 @@
       <div class="card-body">
         <div class="row">
           <div class="card-title">
-            <h2>{card_title}</h2>
+            <h2>{title}</h2>
           </div>
         </div>
         <p>
-          {card_desc}
+          {description}
         </p>
-        <button>Do Something</button>
+        <button>Launch</button>
       </div>
     </div>
   </div>
@@ -37,5 +37,9 @@
     color: #575757;
     margin-bottom: 20px;
     font-size: 14px;
+  }
+
+  .card-container {
+    padding: 20px;
   }
 </style>
