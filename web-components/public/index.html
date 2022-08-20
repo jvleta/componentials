@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1'>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-	<title>Svelte app</title>
+    <title>Svelte app</title>
 
-	<link rel='icon' type='image/png' href='/favicon.png'>
-	<link rel='stylesheet' href='/global.css'>
-	<link rel='stylesheet' href='/build/bundle.css'>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/build/bundle.css" />
 
-	<script defer src='/build/bundle.js'></script>
-</head>
+    <script defer src="/build/bundle.js"></script>
+  </head>
 
-<body>
-</body>
+  <body>
+    <boiler-plate
+      app_name="Componentials Demo"
+      year="2022"
+      company_name="Jimmy Leta"
+    >
+      <div>
+        <my-card
+          title="Thing 1"
+          description="This is where the description for Thing 1 will go"
+        ></my-card>
+        <my-card
+          title="Thing 2"
+          description="This is where the description for Thing 2 will go"
+        ></my-card>
+      </div>
+    </boiler-plate>
+  </body>
 </html>

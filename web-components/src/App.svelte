@@ -1,12 +1,12 @@
-<svelte:options tag="my-app" />
 <script>
   import Card from "./Card.svelte";
   import BoilerPlate from "./BoilerPlate.svelte";
+  import AccordionItem from "./AccordionItem.svelte";
   export let name = "Mom";
 </script>
 
 <main>
-  <BoilerPlate company_name="Jimmy Leta">
+  <BoilerPlate  year="2022" company_name="Jimmy Leta">
     <h1>Hello {name}!!!</h1>
     <Card card_title="My Card Title" card_desc="Lorem ipsum dolor…" />
   </BoilerPlate>
