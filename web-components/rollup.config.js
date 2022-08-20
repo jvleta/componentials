@@ -34,13 +34,14 @@ export default {
 		sourcemap: true,
 		format: 'iife',
 		name: 'app',
-		file: 'public/build/bundle.js'
+		file: 'public/build/index.js'
 	},
 	plugins: [
 		svelte({
 			compilerOptions: {
 				// enable run-time checks when not in production
-				dev: !production
+				dev: !production,
+				customElement: true,
 			}
 		}),
 		// we'll extract any component CSS out into

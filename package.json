@@ -1,0 +1,19 @@
+{
+  "name": "@letalib/componentials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./web-components/build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvleta/componentials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvleta/componentials/issues"
+  },
+  "homepage": "https://github.com/jvleta/componentials#readme"
+}
